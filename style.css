@@ -3,15 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
-    /* padding-bottom: 50px; */
-}
-
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-image: linear-gradient(to right, tomato, orange);
+    padding: 15px 0;
 }
 
 .logo {
@@ -25,7 +22,7 @@ section {
 
 .nav ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .nav ul li a {
@@ -46,7 +43,8 @@ section {
 .order-contents h1 {
     font-size: 50px;
     font-weight: 700;
-    line-height: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .orange {
@@ -119,6 +117,7 @@ section {
 .recipes-content {
     text-align: center;
     padding: 80px 180px;
+    color: rgb(77, 77, 77);
 }
 
 .grey {
