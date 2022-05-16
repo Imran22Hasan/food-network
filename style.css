@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    /* padding-bottom: 50px; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.order-contents {
+    color: rgb(77, 77, 77);
+}
+
+.order-contents p {
+    margin: 50px 0;
+}
+
+.order-contents h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.orange {
+    color: orange;
+}
+
+.order-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 1px 3px 0px orange;
+}
+
+.order-section {
+    display: flex;
+    align-items: center;
+}
+
+.order-contents {
+    width: 50%;
+    padding: 5%;
+}
+
+.model-image {
+    width: 100%;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-attachment: fixed;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card-content {
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px grey;
+}
+
+.card-content img {
+    width: 100%;
+}
+
+.subscriber {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px grey;
+}
+
+.recipes-content {
+    text-align: center;
+    padding: 80px 180px;
+}
+
+.grey {
+    color: grey;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    color: #009292;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: whitesmoke;
+    text-align: center;
+}
